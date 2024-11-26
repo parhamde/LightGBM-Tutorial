@@ -78,3 +78,9 @@ So, let's get started.
  
  
  - So, we need to understand the distinction between leaf-wise tree growth and level-wise tree growth.
+
+### **2.1 Leaf-wise tree growth** 
+
+
+- Leaf-wise tree growth can best be explained with the following visual -
+![Leaf-wise tree growth](https://i.stack.imgur.com/YOE9y.png)

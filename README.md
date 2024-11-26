@@ -38,3 +38,27 @@ So, let's get started.
    - 7.2	For better accuracy
    - 7.3	To deal with over-fitting
 - 8.	References
+
+## **1. Introduction to LightGBM** 
+
+
+- [LightGBM](https://github.com/Microsoft/LightGBM) is a gradient boosting framework that uses tree based learning algorithms. It is designed to be distributed and efficient with the following advantages:
+
+  - Faster training speed and higher efficiency.
+  - Lower memory usage.
+  - Better accuracy.
+  - Support of parallel and GPU learning.
+  - Capable of handling large-scale data.
+  
+  
+- At present, decision tree based machine learning algorithms dominate Kaggle competitions. The winning solutions in these competitions have adopted an alogorithm called **XGBoost**. 
+
+- A couple of years ago, Microsoft announced its gradient boosting framework LightGBM. Nowadays, it steals the spotlight in gradient boosting machines. Kagglers start to use LightGBM more than XGBoost. LightGBM is 6 times faster than XGBoost. 
+
+- LightGBM is a relatively new algorithm and have long list of parameters given in the [LightGBM documentation](https://github.com/microsoft/LightGBM),
+
+- The size of dataset is increasing rapidly. It is become very difficult for traditional data science algorithms to give accurate results. Light GBM is prefixed as **Light** because of its high speed. **LightGBM can handle the large size of data and takes lower memory to run**. 
+
+- Another reason why Light GBM is so popular is because it focuses on accuracy of results. LGBM also supports GPU learning and thus data scientists are widely using LGBM for data science application development.
+
+- It is not advisable to use LGBM on small datasets. LightGBM is sensitive to overfitting and can easily overfit small data.

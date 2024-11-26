@@ -62,3 +62,19 @@ So, let's get started.
 - Another reason why Light GBM is so popular is because it focuses on accuracy of results. LGBM also supports GPU learning and thus data scientists are widely using LGBM for data science application development.
 
 - It is not advisable to use LGBM on small datasets. LightGBM is sensitive to overfitting and can easily overfit small data.
+
+## **2. LightGBM intuition** 
+
+
+- LightGBM is a gradient boosting framework that uses tree based learning algorithm.
+
+
+- LightGBM documentation states that -
+
+ `LightGBM grows tree vertically while other tree based learning algorithms grow trees horizontally. 
+ It means that LightGBM grows tree leaf-wise while other algorithms grow level-wise. It will choose 
+ the leaf with max delta loss to grow. When growing the same leaf, leaf-wise algorithm can reduce more 
+ loss than a level-wise algorithm.`
+ 
+ 
+ - So, we need to understand the distinction between leaf-wise tree growth and level-wise tree growth.

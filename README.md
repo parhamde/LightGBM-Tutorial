@@ -83,4 +83,4 @@ So, let's get started.
 
 
 - Leaf-wise tree growth can best be explained with the following visual -
-![Leaf-wise tree growth](https://i.stack.imgur.com/YOE9y.png)
+(![Leaf-wise tree growth](https://i.sstatic.net/YOE9y.png))
